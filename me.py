@@ -1,10 +1,15 @@
 import turtle
 
-class Me(turtle.Turtle):
+class Me(object):
     element=turtle.Turtle()
-    def __init__(self,color,form,position):
+    position=[]
+    def __init__(self,element,position):
+        self.element=element
+        self.position=position
+    def begin(self):
         self.element.penup()
-        self.element.shape(form)
-        self.element.color(color)
-        self.element.goto(position[0],position[1])
+        self.element.shape('square')
+        self.element.color('blue')
+        self.element.goto(self.position[0],self.position[1])
+    
 
