@@ -6,3 +6,6 @@ https://stacktr.com/es/question-38-python-cambiar-el-tamano-de-la-tortuga-con-fo
 
 # TRAIHACKME
 https://tryhackme.com/hacktivities
+
+# HACK THE BOX
+https://www.hackthebox.com/
