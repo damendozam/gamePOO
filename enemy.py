@@ -1,11 +1,9 @@
 import turtle
+from gamer import Gamer
 
-class Enemy(object):
+class Enemy(Gamer):
     element=turtle.Turtle()
     position=[]
-    def __init__(self,element,position):
-        self.element=element
-        self.position=position
     def begin(self):
         self.element.penup()
         self.element.shape('square')
